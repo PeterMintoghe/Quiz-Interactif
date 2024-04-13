@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz interactif</title>
+    <link rel="stylesheet" href="Style\styles.css">
+    <script> </script>
+</head>
+
+<body>
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <strong>Vous devez choisir une réponse pour continuer.</strong>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Quiz interactif</h1>
+        <div id="num"></div>
+        <h1></h1>
+        <div id="quiz-container">
+            <!-- Les questions seront ajoutées dynamiquement ici -->
+        </div>
+        <button id="submit-btn">Valider</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="Logique\quiz.js"></script>
+</body>
+</html>

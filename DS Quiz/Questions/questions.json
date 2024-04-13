@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Qui a remporté la Coupe du Monde de la FIFA 2018 ?",
+    "options": ["Brésil", "Allemagne", "France", "Argentine"],
+    "answer": "France"
+    },
+    {
+    "question": "Quelle équipe a remporté le titre de l'UEFA Champions League en 2020 ?",
+    "options": ["Bayern Munich", "Real Madrid", "Liverpool", "Barcelone"],
+    "answer": "Bayern Munich"
+  },
+  {
+    "question": "Qui est le meilleur buteur de tous les temps de la Ligue des Champions de l'UEFA ?",
+    "options": ["Lionel Messi", "Raul", "Robert Lewandowski", "Cristiano Ronaldo"],
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "question": "Quel joueur a remporté le Ballon d'Or 2019 ?",
+    "options": ["Lionel Messi", "Virgil van Dijk", "Cristiano Ronaldo", "Kylian Mbappé"],
+    "answer": "Lionel Messi"
+  },
+  {
+    "question": "Quel club a remporté le plus de titres de Premier League anglaise ?",
+    "options": ["Liverpool", "Manchester United", "Chelsea", "Arsenal"],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Quelle équipe nationale a remporté le plus de Coupes du Monde de la FIFA ?",
+    "options": ["Brésil", "Allemagne", "Italie", "Argentine"],
+    "answer": "Brésil"
+  },
+  {
+    "question": "Qui est le manager actuel du FC Barcelone ?",
+    "options": ["Pep Guardiola", "Xavi Hernandez", "Ronald Koeman", "Luis Enrique"],
+    "answer": "Xavi Hernandez"
+  },
+  {
+    "question": "Qui est le meilleur buteur de tous les temps en Premier League anglaise ?",
+    "options": ["Alan Shearer", "Wayne Rooney", "Thierry Henry", "Sergio Agüero"],
+    "answer": "Alan Shearer"
+  },
+  {
+    "question": "Quelle équipe a remporté la Copa America 2019 ?",
+    "options": ["Argentine", "Brésil", "Uruguay", "Chili"],
+    "answer": "Brésil"
+  },
+  {
+    "question": "Quel joueur a marqué le plus de buts en une seule saison de Premier League ?",
+    "options": ["Mohamed Salah", "Cristiano Ronaldo", "Thierry Henry", "Alan Shearer"],
+    "answer": "Mohamed Salah"
+  },
+  {
+    "question": "Qui a été le premier joueur à remporter le Ballon d'Or FIFA en 1956 ?",
+    "options": ["Pele", "Alfredo Di Stefano", "Ferenc Puskas", "Stanley Matthews"],
+    "answer": "Stanley Matthews"
+  },
+  {
+    "question": "Quel joueur a remporté le prix FIFA The Best Men's Player en 2020 ?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Robert Lewandowski", "Virgil van Dijk"],
+    "answer": "Robert Lewandowski"
+  },
+  {
+    "question": "Quelle équipe a remporté la Premier League anglaise en 2021 ?",
+    "options": ["Manchester City", "Liverpool", "Chelsea", "Manchester United"],
+    "answer": "Manchester City"
+  },
+  {
+    "question": "Qui est le manager actuel du Real Madrid ?",
+    "options": ["Zinedine Zidane", "Jose Mourinho", "Carlo Ancelotti", "Rafael Benitez"],
+    "answer": "Carlo Ancelotti"
+  },
+  {
+    "question": "Quel joueur a remporté le Soulier d'Or européen en 2020 ?",
+    "options": ["Robert Lewandowski", "Lionel Messi", "Cristiano Ronaldo", "Kylian Mbappé"],
+    "answer": "Robert Lewandowski"
+  },
+  {
+    "question": "Quel club a remporté le plus de Ligue des Champions de l'UEFA ?",
+    "options": ["FC Barcelone", "Bayern Munich", "AC Milan", "Real Madrid"],
+    "answer": "Real Madrid"
+  },
+  {
+    "question": "Quelle équipe nationale a remporté la Coupe du Monde de la FIFA 2014 ?",
+    "options": ["Brésil", "Allemagne", "Argentine", "Espagne"],
+    "answer": "Allemagne"
+  },
+  {
+    "question": "Qui a été le meilleur buteur de la Coupe du Monde de la FIFA 2018 ?",
+    "options": ["Harry Kane", "Luka Modric", "Kylian Mbappé", "Cristiano Ronaldo"],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Quel joueur a remporté le Trophée Kopa en 2018 ?",
+    "options": ["Jadon Sancho", "Kylian Mbappé", "Matthijs de Ligt", "Frenkie de Jong"],
+    "answer": "Kylian Mbappé"
+  },
+  {
+    "question": "Qui a été le manager de l'équipe nationale d'Espagne lorsqu'ils ont remporté la Coupe du Monde de la FIFA 2010 ?",
+    "options": ["Fernando Hierro", "Luis Aragonés", "Julen Lopetegui", "Vicente del Bosque"],
+    "answer": "Vicente del Bosque"
+  }
+]
+
+    

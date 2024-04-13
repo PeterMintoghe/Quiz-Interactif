@@ -1,0 +1,143 @@
+/*Par Pierre Philippe MINTOGHE*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    color: white;
+    background: url('212835.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.popup .content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: transparent;
+    padding: 20px;
+    width: 400px;
+    height: 20px;
+    backdrop-filter: blur(2.5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    z-index: 2;
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+a {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a:hover {
+    background-color: #276e2b;
+  }
+
+p {
+    text-align: center, justify;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    padding: 1.5rem 4rem 3rem 4rem;
+    width: 400px;
+    height: 380px;
+    backdrop-filter: blur(2.5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+}
+.contain {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: transparent;
+    padding: 1.5rem 4rem 3rem 4rem;
+    width: 400px;
+    height: 250px;
+    backdrop-filter: blur(2.5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+#num {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#submit-btn:hover {
+    background-color: #276e2b;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
