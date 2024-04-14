@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             resultContainer.innerHTML = `Très Bien , votre score est de ${score}/${questions.length}.`;
         }
         if (score = 20 ) {
-            resultContainer.innerHTML = `Félicitation, vous avez trouvé toutes les réponses (${question.length}/${questions.length}).`;
+            resultContainer.innerHTML = `Félicitation, vous avez trouvé toutes les réponses (${score}/${questions.length}).`;
 
         }
     }
