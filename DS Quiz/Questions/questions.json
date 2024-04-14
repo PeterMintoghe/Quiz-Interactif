@@ -46,8 +46,8 @@
   },
   {
     "question": "Quel joueur a marqué le plus de buts en une seule saison de Premier League ?",
-    "options": ["Mohamed Salah", "Cristiano Ronaldo", "Thierry Henry", "Alan Shearer"],
-    "answer": "Mohamed Salah"
+    "options": ["Mohamed Salah", "Erling Haaland", "Thierry Henry", "Alan Shearer"],
+    "answer": "Erling Haaland"
   },
   {
     "question": "Qui a été le premier joueur à remporter le Ballon d'Or FIFA en 1956 ?",
@@ -71,8 +71,8 @@
   },
   {
     "question": "Quel joueur a remporté le Soulier d'Or européen en 2020 ?",
-    "options": ["Robert Lewandowski", "Lionel Messi", "Cristiano Ronaldo", "Kylian Mbappé"],
-    "answer": "Robert Lewandowski"
+    "options": ["Robert Lewandowski", "Lionel Messi", "Cristiano Ronaldo", "Ciro Immobile"],
+    "answer": "Ciro Immobile"
   },
   {
     "question": "Quel club a remporté le plus de Ligue des Champions de l'UEFA ?",
