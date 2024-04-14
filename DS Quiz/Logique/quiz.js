@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
             resultContainer.innerHTML = `Très Bien , votre score est de ${score}/${questions.length}.`;
         }
         if (score = 20 ) {
-            resultContainer.innerHTML = `Félicitation, vous avez trouvé toutes les réponses (${score}/${questions.length}).`;
+            resultContainer.innerHTML = `Félicitation, vous avez trouvé toutes les réponses (${question.length}/${questions.length}).`;
 
-        }  
+        }
     }
 
 // La foncction qui permet de nous afficher un popup au cas ou on voudrait sauter une question. 
@@ -56,13 +56,16 @@ document.addEventListener("DOMContentLoaded", function() {
     function checkAnswer() {
         const userAnswer = document.querySelector('input[name="option"]:checked');
         if (!userAnswer) {
-            showPopup(2500); // Affiche le popup pendant 2 secondes
+            showPopup(2500); // Affiche le popup pendant 2.5 secondes
             return;
+        }   else {
+                const userAnswer = document.querySelector('input[name="option"]:checked').value;
+                const correctAnswer = questions[currentQuestionIndex].answer;        
+                if (userAnswer === correctAnswer) {
+                score++;
+            }
         }
-        const correctAnswer = questions[currentQuestionIndex].answer;        
-        if (userAnswer === correctAnswer) {
-            score++;
-        }
+        
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
             loadQuestion(questions[currentQuestionIndex]);
